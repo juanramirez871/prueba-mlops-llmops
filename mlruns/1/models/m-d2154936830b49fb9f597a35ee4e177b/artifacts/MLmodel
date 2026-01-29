@@ -1,0 +1,15 @@
+artifact_path: /Users/juandiego/Documents/study/keepcoding/prueba-mlops-llmops/mlruns/1/models/m-d2154936830b49fb9f597a35ee4e177b/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-d2154936830b49fb9f597a35ee4e177b
+model_size_bytes: 8293681
+model_uuid: m-d2154936830b49fb9f597a35ee4e177b
+prompts: null
+run_id: 4627eaf783d24b3196fcfc44f58122d4
+utc_time_created: '2026-01-29 15:56:30.045208'

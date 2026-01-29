@@ -1,0 +1,11 @@
+docker build -t gcr.io/ia4-2026"/fastapi-ap .
+
+gcloud builds submit --tag europe-west4-docker.pkg.dev/ia4-2026"/docker-repo/fastapi-ap:latest .
+
+gcloud auth configure-docker europe-west4-docker.pkg.dev
+
+gcloud run deploy fastapi-ap \
+  --image europe-west4-docker.pkg.dev/ia4-2026"/docker-repo/fastapi-ap:latest \
+  --platform managed \
+  --region europe-west4 \
+  --allow-unauthenticated
